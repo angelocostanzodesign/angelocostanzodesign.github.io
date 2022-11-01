@@ -682,6 +682,7 @@ width: 100%;
     justify-content: center;
     align-items: center;
     background: var(--nero);
+    opacity: .96;
   }
 
   .header__menu li {
