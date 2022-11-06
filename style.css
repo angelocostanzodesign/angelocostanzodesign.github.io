@@ -321,10 +321,14 @@ html {
   transition: transform 1s, visibility 1s ease-in;
 }
 
+#education .education__container {
+  display: flex;
+}
+
 #education .content__box {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
   height: auto;
   max-width: 43rem;
@@ -654,12 +658,16 @@ width: 100%;
     height: 50rem;
   }
 
+  #education .education__container {
+    flex-direction: column;
+  }
+
   #education .content__box,
   #portfolio .content__box {
     min-height: auto;
     max-width: 40rem;
     padding: 5%;
-    margin: 2.5% 0;
+    margin: 5% 0;
   }
 
   #contacts .content__box {
@@ -753,10 +761,12 @@ width: 100%;
     padding: 2.5%;
   }
 
-  #education > .content__box, #portfolio > .content__box,
-  #contacts > .content__box {
-    height: 100%;
-    width: auto;
+  #education .education__container {
+    flex-direction: row;
+  }  
+
+  #education .content__box, #portfolio .content__box,
+  #contacts .content__box {
     padding: 2.5%;
   }
 
