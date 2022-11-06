@@ -270,7 +270,7 @@ html {
 .section {
   background-color: var(--dark);
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   width: 100%;
   min-height: calc(100vh - 7.3rem);
   justify-content: center;
