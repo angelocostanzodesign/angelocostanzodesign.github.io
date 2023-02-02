@@ -461,6 +461,11 @@ width: 100%;
   margin-top: 0;
 }
 
+.contact__box > .button:nth-child(1) {
+  background: none;
+  border: .2rem solid var(--bianco);
+}
+
 /* ! content */
 
 .content {
