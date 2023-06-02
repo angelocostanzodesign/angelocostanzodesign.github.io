@@ -322,18 +322,18 @@ html {
 }*/
 
 .profilo {
-  height: auto;
   width: 100%;
+  height: auto;
   filter: grayscale(100%);
   transform-origin: 0 0;
   transition: transform 1s, visibility 1s ease-in;
-
 }
 
 .profilo:hover {
   filter: grayscale(0%);
   transform: scale(1.2);
-  transition: transform 1s, visibility 1s ease-in;}
+  transition: transform 1s, visibility 1s ease-in;
+}
 
 #education .education__container {
   display: flex;
