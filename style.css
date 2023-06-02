@@ -304,23 +304,6 @@ html {
   overflow: hidden;
 }
 
-/*.content__box > .immagine {
-  background-image: url(..//img/profilo.jpg);
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  padding: 2.5%;
-  filter: grayscale(100%);
-  transform-origin: 0 0;
-  transition: transform 1s, visibility 1s ease-in;
-}
-
-.content__box > .immagine:hover {
-  filter: grayscale(0%);
-  transform: scale(1.2);
-  transition: transform 1s, visibility 1s ease-in;
-}*/
-
 .content__box > .profilo {
   width: 100%;
   height: auto;
