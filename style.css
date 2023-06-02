@@ -321,7 +321,7 @@ html {
   transition: transform 1s, visibility 1s ease-in;
 }*/
 
-.profilo {
+.content__box > .profilo {
   width: 100%;
   height: auto;
   filter: grayscale(100%);
@@ -329,7 +329,7 @@ html {
   transition: transform 1s, visibility 1s ease-in;
 }
 
-.profilo:hover {
+.content__box > .profilo:hover {
   filter: grayscale(0%);
   transform: scale(1.2);
   transition: transform 1s, visibility 1s ease-in;
