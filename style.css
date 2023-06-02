@@ -304,7 +304,7 @@ html {
   overflow: hidden;
 }
 
-.content__box > .immagine {
+/*.content__box > .immagine {
   background-image: url(..//img/profilo.jpg);
   background-size: cover;
   height: 100%;
@@ -319,7 +319,21 @@ html {
   filter: grayscale(0%);
   transform: scale(1.2);
   transition: transform 1s, visibility 1s ease-in;
+}*/
+
+.profilo {
+  height: auto;
+  width: 100%;
+  filter: grayscale(100%);
+  transform-origin: 0 0;
+  transition: transform 1s, visibility 1s ease-in;
+
 }
+
+.profilo:hover {
+  filter: grayscale(0%);
+  transform: scale(1.2);
+  transition: transform 1s, visibility 1s ease-in;}
 
 #education .education__container {
   display: flex;
