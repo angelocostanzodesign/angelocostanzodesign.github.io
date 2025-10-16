@@ -260,7 +260,7 @@ html {
   text-align: center;
 }
 
-/*.swiper__text > h1 > span {
+.swiper__text > h1 > span {
   font-size: inerith;
   color: var(--elettric);
 }*/
@@ -648,7 +648,7 @@ width: 100%;
 
   .swiper-button-next,
   .swiper-button-prev {
-    display: none;
+    display: none!important;
   }
 
   .section {
