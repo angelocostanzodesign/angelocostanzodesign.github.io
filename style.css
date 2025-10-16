@@ -235,6 +235,10 @@ html {
   left: 3.5rem; 
 }
 
+.swiper-navigation-icon {
+  display: none;
+}
+
 .swiper-pagination-bullet {
     opacity: 0.6;
     background-color: var(--bianco);
@@ -648,7 +652,7 @@ width: 100%;
 
   .swiper-button-next,
   .swiper-button-prev {
-    display: none!important;
+    display: none;
   }
 
   .section {
