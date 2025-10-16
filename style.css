@@ -25,19 +25,19 @@
   --bordo: 1pt;
 }
 
-h1 {
+h1, h2 {
   font-size: var(--titolo);
   font-weight: var(--bold);
   font-family: var(--ftype);
   color: var(--bianco);
 }
 
-h2 {
+/*h2 {
   font-size: var(--sottotitolo);
   font-weight: var(--bold);
   font-family: var(--ftype);
   color: var(--bianco);
-}
+}*/
 
 p {
     font-size: var(--corpo);
@@ -260,10 +260,10 @@ html {
   text-align: center;
 }
 
-.swiper__text > h1 > span {
+/*.swiper__text > h1 > span {
   font-size: inerith;
   color: var(--elettric);
-}
+}*/
 
 /* ! section */
 
