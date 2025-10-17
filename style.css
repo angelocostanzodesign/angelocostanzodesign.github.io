@@ -77,11 +77,6 @@ html {
 
 /* ! header */
 
-.header__logo > span {
-  font-size: inerith;
-  color: var(--elettric);
-}
-
 .header {
   position: fixed;
   z-index: 100;
@@ -105,12 +100,17 @@ html {
 }
 
 .header__logo {
-  font-size: var(--standard);
+  font-size: var(--corpo);
   font-family: var(--ftype);
-  font-weight: var(--light);
+  font-weight: var(--regular);
   color: var(--bianco);
   text-decoration: none;
   margin-left: 2rem;
+}
+
+.header__logo > span {
+  font-size: inerith;
+  color: var(--elettric);
 }
 
 .logo__img {
