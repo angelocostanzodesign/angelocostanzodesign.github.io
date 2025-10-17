@@ -77,6 +77,11 @@ html {
 
 /* ! header */
 
+.header__logo > span {
+  font-size: inerith;
+  color: var(--elettric);
+}
+
 .header {
   position: fixed;
   z-index: 100;
