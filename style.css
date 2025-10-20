@@ -32,6 +32,14 @@ h1, h2 {
   color: var(--bianco);
 }
 
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /*h2 {
   font-size: var(--sottotitolo);
   font-weight: var(--bold);
